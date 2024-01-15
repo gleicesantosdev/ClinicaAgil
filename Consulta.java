@@ -1,9 +1,11 @@
+package Clinica;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class Consulta extends Main {
+public class Consulta  {
     Pacientes pacientes;
     LocalDateTime datahora;
     String especialidade;
@@ -36,8 +38,5 @@ public class Consulta extends Main {
         this.pacientes = pacientes;
         this.datahora = datahora;
         this.especialidade = especialidade;
-
-
-
     }
 }

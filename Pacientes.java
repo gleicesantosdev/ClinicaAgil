@@ -1,9 +1,11 @@
+package Clinica;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class Pacientes extends Main{
+public class Pacientes {
     String Nome;
     String Telefone;
 
